@@ -1,0 +1,145 @@
+/*
+  Global Styles and Typeography
+*/
+
+body{
+  background-color: rgb(18, 18, 18);
+}
+
+p {
+  font-family: 'Futura';
+  color: white;
+}
+
+input[type="search"]::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+/*
+  Search Bar and Button
+*/
+
+.css-search-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.css-search-bar {
+  background-color: rgb(60, 60, 60);
+  font-size: 30px;
+  font-family: 'Futura';
+  color: white;
+  border-radius: 12px;
+}
+
+.css-search-button {
+  font-family: 'Futura';
+  background-color: rgb(29, 185, 84);
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  border-radius: 18px;
+  margin: 10px;
+  color: white;
+}
+
+.css-search-button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 186, 100);
+}
+
+/*
+  Artist picture and name
+*/
+
+.css-artist-info-container {
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  border-radius: 18px;
+  border-color: rgb(89, 89, 89);
+}
+
+.css-artist-image {
+  width: 300px;
+  padding: 10px;
+}
+
+.css-artist-name {
+  font-size: 50px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+/*
+  Album header
+*/
+.css-albums-header-container {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  justify-content: center; /* Makes it centered on the screen */
+  width: 100%;
+}
+
+.css-albums-header {
+  font-size: 50px;
+}
+
+/*
+  Album cards
+*/
+
+.album-info {
+  border-style: solid;
+  border-color: rgb(89, 89, 89);
+  margin: 15px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.album-cover { 
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  
+}
+
+.name-and-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-wrap: initial;
+  width: 200px;
+  margin-right: 50px;
+}
+
+.album-name {
+  margin-bottom: 0px;
+  width: 200px;
+  font-size: 30px;
+}
+
+.album-release-date {
+  width: 200px;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.tracks {
+  color: white;
+  font-family: 'Futura';
+  padding-left: 5px;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Spotify Artist Search</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    
+    <!--Start designing the app her then hide it-->
+  
+    <div class="css-app-container" id="js-app-container" >
+
+      <div class="css-search-container" id="js-search-container">
+        <input type="search" placeholder="Find An Artist" class="css-search-bar" id="js-search-bar">
+        <button class="css-search-button" id="js-search-button">Search</button>
+      </div>
+      
+      <div class="css-artist-info-container" id="js-artist-info" style="display: none;">
+        <img src="" class="css-artist-image" id="js-artist-image">
+        <p class="css-artist-name" id="js-artist-name">
+          
+        </p>
+      </div>
+
+      <div class="css-albums-header-container" id="js-albums-header-container" style="display: none;">
+        <p class="css-albums-header" id="js-albums-header">
+          Albums
+        </p>
+      </div>
+
+      <div id="albums-container"></div>
+      <template id="album-card">
+        <div class="album-info">
+          <img src="" class="album-cover">
+          <div class="name-and-date">
+            <p class="album-name"></p>
+            <p class="album-release-date"></p>
+          </div>
+          <div class="track-list"></div>
+        </div>
+      </template>
+    </div>
+    <script  src="app.js" defer></script>
+  </body>
+</html>
